@@ -80,8 +80,9 @@
   <div class="container">
 
     <header>
-      <h1>Wiki Title</h1>
-      <p>description can deleate if you want</p>
+      <h1>Grandma's Walking Stick</h1>
+      <p>Stick with Knockback II
+      Written by Terry_12</p>
     </header>
 
     <nav>
@@ -101,16 +102,17 @@
     <div class="card" id="details">
       <h2>Details</h2>
       <ul>
-        <li>Point 1</li>
-        <li>Point 2</li>
-        <li>Point 3</li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
     </div>
 
     <div class="card" id="history">
-      <h2>History</h2>
+      <h2>Extra Info</h2>
       <p>
-        Background
+        this can be used to play slap battles in minecraft
+        <br>easter egg this is the first page made
       </p>
     </div>
 
