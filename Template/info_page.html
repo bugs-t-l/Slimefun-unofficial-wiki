@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #eaeaea;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    nav {
+      margin: 20px 0;
+      padding: 10px;
+      background: #1a1a1a;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #4da3ff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Wiki Title</h1>
+      <p>A simple and clean wiki page</p>
+    </header>
+
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#details">Details</a>
+      <a href="#history">History</a>
+    </nav>
+
+    <div class="card" id="overview">
+      <h2>Overview</h2>
+      <p>
+        This is where you put a general overview of your topic. Keep it short and clear.
+      </p>
+    </div>
+
+    <div class="card" id="details">
+      <h2>Details</h2>
+      <ul>
+        <li>Point 1</li>
+        <li>Point 2</li>
+        <li>Point 3</li>
+      </ul>
+    </div>
+
+    <div class="card" id="history">
+      <h2>History</h2>
+      <p>
+        Add background information, timelines, or important events here.
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
